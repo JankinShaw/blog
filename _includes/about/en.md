@@ -1,16 +1,19 @@
-> Hope your road is a long one.
+> **„Es muss von Herzen kommen, was auf Herzen wirken soll.“** 
 >
-> May there be many summer mornings when,
->
-> with what pleasure, what joy,
->
-> you enter harbors you’re seeing for the first time.
+> – Goethe
 
-Hi, I’m YEY. I graduated from the University of Melbourne with a Master's Degree in Data Science. I'm currently working in Huawei as a software engineer and my work mainly focuses on empowering communication networks with AI algorithms. I am interested in NLP,LLM, AIGC and RL. Welcome to contact with me: <yangye0329@outlook.com>
+Hi! 👋 Welcome to my blog!
+
+My name is Yingjie Xiao, and I am studying Computational Linguistics at the University of Tübingen. My academic interests lie primarily in analyzing linguistic nuances with computational methods.
+
+In this blog, I will share my thoughts on my reading and studies. You will find reflections on academic papers, book reviews, and my experiences with programming languages and computational linguistics methods. Additionally, I may occasionally write about my personal experiences as an international student in Germany.
+
+For more about me, feel free to visit my [resume](https://jankinshaw.github.io/resume/).
 
 ##### Interests
 
-* Anime
-* Games
+* Language Learning
 * Reading
-* Data Science
+* Logic
+* Computational Linguistics
+* Tennis
