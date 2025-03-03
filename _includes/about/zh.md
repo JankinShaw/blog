@@ -1,6 +1,6 @@
 > **„Es muss von Herzen kommen, was auf Herzen wirken soll.“**
 >
-> – Goethe
+> – Johann Wolfgang von Goethe
 
 Hallo! 👋 Willkommen auf meinem Blog!
 

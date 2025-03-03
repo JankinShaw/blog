@@ -1,6 +1,6 @@
-> **„Es muss von Herzen kommen, was auf Herzen wirken soll.“** 
+> “It must come from the heart if it is to touch hearts.”
 >
-> – Goethe
+> –Johann Wolfgang von Goethe
 
 Hi! 👋 Welcome to my blog!
 
