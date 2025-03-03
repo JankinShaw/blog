@@ -1,7 +1,7 @@
 # Site settings
 title: YJ Blog
 SEOTitle: Yingjies Blog
-header-img: img/home-bg-02.png
+header-img: img/new/DSC07637.jpg
 email: jankinshaw@gmail.com
 description: "Das Leben in vollen Zügen genießen"
 keyword: "YJ Blog, YJ 的博客, Computational Linguistics"
@@ -11,8 +11,8 @@ github_repo: "https://github.com/JankinShaw/jankinshaw.github.io.git" # your cod
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Forever Young."
-sidebar-avatar: /img/avatar-andy.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Reflect, Reconstruct, Revive"
+sidebar-avatar: /img/new/avatar-jankin.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
