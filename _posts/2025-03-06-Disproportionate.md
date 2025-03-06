@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      Die Verwendung des englischen Wortes „disproportionate"  	# 标题 
+title:      Etwas „disproportionate"?  	# 标题 
 subtitle:   Beobachtung #副标题
 date:       2025-03-06 			# 时间
 author:     Jankin 						# 作者
@@ -12,8 +12,6 @@ tags:								#标签
     - language
     - observation
 ---
-# Die Verwendung des englischen Wortes „disproportionate".
-
 Es ist eine chaotische Welt, in der wir jeden Tag eine Ausnahme wahrnehmen können. Ich habe oft eine Gewohnheit, die unterschiedliche Verwendung der gleichen Worte in verschiedenen Büchern zu vergleichen. Lassen Sie uns heute mit „disproportionate" (vom Normalen abweichend) sehen. Ich finde es immer interessant, etwas zu erfahren, das „disproportional" ist. Weil sie oft etwas Anormales in unserer Welt andeuten.
 
 ## Im Bereich der Kriminologie
