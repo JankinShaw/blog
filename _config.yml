@@ -47,6 +47,11 @@ gems: [jekyll-paginate]
 
 
 
+# Comments
+staticman:
+  branch: "main"
+  format: "yaml"
+  moderation: true
 
 # Markdown settings
 # replace redcarpet to kramdown,

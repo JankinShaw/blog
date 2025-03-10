@@ -27,14 +27,17 @@ layout: default
 
                 {{ content }}
 
-                <blockquote style="margin:2em 0 0;padding:.5em 1em;border-left:3px solid #36a8f4;background-color:#f5f5f5;list-style:none">
-                    <strong>All Rights Reserved.</strong>  
-                    This work, including all images and content, is protected under copyright law.  
-                    Unauthorized reproduction, distribution, modification, or adaptation of this work in any form is strictly prohibited without explicit written permission from the owner.  
-                
-                    If you wish to use or reference this content, please contact <a href="mailto:your-email@example.com">YJ Blog</a> for licensing inquiries.  
-                
-                    Any unauthorized use of this material may result in legal consequences.  
+                <blockquote
+                    style="margin:2em 0 0;padding:.5em 1em;border-left:3px solid #36a8f4;background-color:#f5f5f5;list-style:none">
+                    <strong>All Rights Reserved.</strong>
+                    This work, including all images and content, is protected under copyright law.
+                    Unauthorized reproduction, distribution, modification, or adaptation of this work in any form is
+                    strictly prohibited without explicit written permission from the owner.
+
+                    If you wish to use or reference this content, please contact <a
+                        href="mailto:your-email@example.com">YJ Blog</a> for licensing inquiries.
+
+                    Any unauthorized use of this material may result in legal consequences.
                 </blockquote>
 
                 <hr style="visibility: hidden;">
@@ -97,6 +100,35 @@ layout: default
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
+
+                <!-- 私密留言框 -->
+                <h3>💬 私密留言（仅博主可见）</h3>
+                <form id="comment-form">
+                    <input type="text" name="name" placeholder="你的名字" required>
+                    <textarea name="message" placeholder="留言内容..." required></textarea>
+                    <button type="submit">提交</button>
+                </form>
+
+                <script>
+                    document.getElementById("comment-form").onsubmit = function (event) {
+                        event.preventDefault();
+
+                        fetch("https://staticman.net/api/v3/entry/github/JankinShaw/JankinShaw.github.io/main", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({
+                                fields: {
+                                    name: event.target.name.value,
+                                    message: event.target.message.value
+                                }
+                            })
+                        }).then(response => response.json())
+                            .then(data => alert("留言已提交！请等待审核。"))
+                            .catch(error => alert("提交失败：" + error.message));
+                    };
+                </script>
+
+
             </div>
 
             <!-- Side Catalog Container -->
