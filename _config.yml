@@ -5,9 +5,9 @@ header-img: img/new/moritz-kindler-4mOYuGzv1vM-unsplash.jpg
 email: jankinshaw@gmail.com
 description: "Das Leben in vollen Zügen genießen"
 keyword: "YJ Blog, YJ 的博客, Computational Linguistics"
-url: "http://jankinshaw.github.io"          # your host, for absolute URL
+url: "http://jankinshaw.github.io/blog"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/JankinShaw/jankinshaw.github.io.git" # your code repository
+github_repo: "https://github.com/JankinShaw/blog" # your code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
